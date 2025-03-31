@@ -32,7 +32,7 @@ aws-handshake/ │
 
 │ └── multi_s3/ # Custom module for multiple S3 buckets
 
-   └── .terraform/ # Terraform-generated files and modules
+  └── .terraform/ # Terraform-generated files and modules
 
 ## 🚀 What This Terraform Code Does
 
@@ -51,24 +51,24 @@ aws-handshake/ │
 
 1. **Clone this repository**
 
-git clone https://github.com/Aneesh2000/terraform-handshake-assessment.git
+   git clone https://github.com/Aneesh2000/terraform-handshake-assessment.git
 
 2. Initialize Terraform
 
-terraform init
+   terraform init
 
 3. add necessary details of the resources to be created in vars_ec2.tfvars & vars_s3.tfvars
 4. Preview the plan
 
-terraform plan -var-file="terraform.tfvars"
+   terraform plan -var-file="terraform.tfvars"
 
 5. Apply the configuration
 
-terraform apply -var-file="terraform.tfvars"
+   terraform apply -var-file="terraform.tfvars"
 
 6. Destroy resources when done
 
-terraform destroy -var-file="terraform.tfvars"
+   terraform destroy -var-file="terraform.tfvars"
 
 📦 Modules Used
 EC2 Instance Module
